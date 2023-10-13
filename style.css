@@ -1,5 +1,61 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
 .icon-buscador{
     display: inline-block;
     width: 24px;
     height: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+header ul li {
+    display: inline;
+    padding: 4px;
+}
+
+
+footer ul li {
+    display: inline-block;
+    margin: 15px 9px;
+}
+
+
+footer ul li {
+    display: inline;
+    padding: 15px;
+}
+
+header{
+    height: 8vh;
+}
+
+main{
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+   
+   
+}
+
+footer{
+    height: auto;
+
 }
